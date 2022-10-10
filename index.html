@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Anifinity</title>
+
+
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!--css stylesheets-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <!--bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Anifinity</a>
+          <img class="logo" src="D:\My_Projects\frontend\image\logo.png" alt="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <button type="button" class="btn btn-success login">Login</button>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-brands fa-reddit"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-brands fa-discord"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-brands fa-telegram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a> -->
+                <!-- <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul> -->
+              <!-- </li> -->
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search Anime..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="fa-brands fa-searchengin"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section class="spotlights">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+              <div class="carousel-item active" data-bs-interval="3000">
+                <div class="animage">
+                  <img src="D:\My_Projects\frontend\image\2026106.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="rank">#1 Spotlight</h3>
+                  <h1 class="anime-name">Death Note</h1>
+                  <div class="detail-icon">
+                    <i class="fa-solid fa-circle-play">TV</i>
+                    <i class="fa-solid fa-clock"> 24m</i>
+                    <i class="fa-solid fa-calendar"> Oct 3,2006</i>
+                  </div>
+                  <p class="plot">An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.</p>
+                  <button type="button" class="btn btn-success login rounded-pill watch"><i class="fa-solid fa-circle-play"></i> Watch Now</button>
+                  <button type="button" class="btn btn-success login rounded-pill detail"> Detail › </button>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="animage">
+                  <img src="D:\My_Projects\frontend\image\108250.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="rank">#2 Spotlight</h3>
+                  <h1 class="anime-name">Attack On Titan</h1>
+                  <div class="detail-icon">
+                    <i class="fa-solid fa-circle-play"> TV</i>
+                    <i class="fa-solid fa-clock"> 20m</i>
+                    <i class="fa-solid fa-calendar"> Jan 13,2018</i>
+                  </div>
+                  <p class="plot">Attack on Titan is a Japanese dark fantasy and post-apocalyptic anime TV series adapted from the manga of the same name by Hajime Isayama. It is set in a world where humanity lives inside cities surrounded by enormous walls due to the Titans, gigantic humanoid beings who devour humans seemingly without reason.</p>
+                  <button type="button" class="btn btn-success login rounded-pill watch"><i class="fa-solid fa-circle-play"></i> Watch Now</button>
+                  <button type="button" class="btn btn-success login rounded-pill detail"> Detail › </button>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="animage">
+                  <img src="D:\My_Projects\frontend\image\1000030.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="rank">#3 Spotlight</h3>
+                  <h1 class="anime-name">Demon Slayer</h1>
+                  <div class="detail-icon">
+                    <i class="fa-solid fa-circle-play"> TV</i>
+                    <i class="fa-solid fa-clock"> 20m</i>
+                    <i class="fa-solid fa-calendar"> Apr 6,2019</i>
+                  </div>
+                  <p class="plot">Demon Slayer is a Japanese manga series written and illustrated by Koyoharu Gotouge. It follows teenage Tanjiro Kamado, who strives to become a demon slayer after his family was slaughtered and his younger sister, Nezuko, turned into a demon.</p>
+                  <button type="button" class="btn btn-success login rounded-pill watch"><i class="fa-solid fa-circle-play"></i> Watch Now</button>
+                  <button type="button" class="btn btn-success login rounded-pill detail"> Detail › </button>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="animage">
+                  <img src="D:\My_Projects\frontend\image\698782.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="rank">#4 Spotlight</h3>
+                  <h1 class="anime-name">My Hero Academia</h1>
+                  <div class="detail-icon">
+                    <i class="fa-solid fa-circle-play"> TV</i>
+                    <i class="fa-solid fa-clock"> 24m</i>
+                    <i class="fa-solid fa-calendar"> Apr 13,2016</i>
+                  </div>
+                  <p class="plot">After he saves a bully from a Villain, a normal student is granted a superpower that allows him to attend a high school training academy for Heroes.</p>
+                  <button type="button" class="btn btn-success login rounded-pill watch"><i class="fa-solid fa-circle-play"></i> Watch Now</button>
+                  <button type="button" class="btn btn-success login rounded-pill detail"> Detail › </button>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="animage">
+                  <img src="D:\My_Projects\frontend\image\wp1809904-one-punch-man-wallpapers.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="rank">#5 Spotlight</h3>
+                  <h1 class="anime-name">One Punch Man</h1>
+                  <div class="detail-icon">
+                    <i class="fa-solid fa-circle-play"> TV</i>
+                    <i class="fa-solid fa-clock"> 24m</i>
+                    <i class="fa-solid fa-calendar"> Oct 4,2016</i>
+                  </div>
+                  <p class="plot">One-Punch Man is a Japanese superhero manga series created by One. It tells the story of Saitama, a superhero who, because he can defeat any opponent with a single punch, grows bored from a lack of challenge.</p>
+                  <button type="button" class="btn btn-success login rounded-pill watch"><i class="fa-solid fa-circle-play"></i> Watch Now</button>
+                  <button type="button" class="btn btn-success login rounded-pill detail"> Detail › </button>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="animage">
+                  <img src="D:\My_Projects\frontend\image\1116284.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="rank">#6 Spotlight</h3>
+                  <h1 class="anime-name">Jujutsu Kaisen</h1>
+                  <div class="detail-icon">
+                    <i class="fa-solid fa-circle-play"> TV</i>
+                    <i class="fa-solid fa-clock"> 22m</i>
+                    <i class="fa-solid fa-calendar"> Oct 3,2020</i>
+                  </div>
+                  <p class="plot">A boy swallows a cursed talisman - the finger of a demon - and becomes cursed himself. He enters a shaman's school to be able to locate the demon's other body parts and thus exorcise himself.</p>
+                  <button type="button" class="btn btn-success login rounded-pill watch"><i class="fa-solid fa-circle-play"></i> Watch Now</button>
+                  <button type="button" class="btn btn-success login rounded-pill detail"> Detail › </button>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="animage">
+                  <img src="D:\My_Projects\frontend\image\Spy-X-Family-HD-Wallpaper-Free-download.jpg" class="d-block w-100" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="rank">#7 Spotlight</h3>
+                  <h1 class="anime-name">Spy x Family</h1>
+                  <div class="detail-icon">
+                    <i class="fa-solid fa-circle-play"> TV</i>
+                    <i class="fa-solid fa-clock"> 23m</i>
+                    <i class="fa-solid fa-calendar"> Apr 3,2022</i>
+                  </div>
+                  <p class="plot">An elegant and hilarious action-comedy series, SPY x FAMILY tells the story of a suave superspy who must cobble together a fake family in order to get close to a target, not realising the fake wife and daughter he’s enlisted are an assassin and a telepath.</p>
+                  <button type="button" class="btn btn-success login rounded-pill watch"><i class="fa-solid fa-circle-play"></i> Watch Now</button>
+                  <button type="button" class="btn btn-success login rounded-pill detail"> Detail › </button>
+                </div>
+              </div>
+              
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="animage">
+                  <img src="D:\My_Projects\frontend\image\wallpaperflare.com_wallpaper (1).jpg"class="d-block w-100" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="rank">#8 Spotlight</h3>
+                  <h1 class="anime-name">Mob Psycho 100</h1>
+                  <div class="detail-icon">
+                    <i class="fa-solid fa-circle-play"> TV</i>
+                    <i class="fa-solid fa-clock"> 22m</i>
+                    <i class="fa-solid fa-calendar"> July 12,2016</i>
+                  </div>
+                  <p class="plot">Mob, a school boy with psychic powers, attempts to juggle school life and his job as an exorcist. However, Mob's emotions become more and more unstable as opposing groups of spirits, psychics and con-artists try to trick him.</p>
+                  <button type="button" class="btn btn-success login rounded-pill watch"><i class="fa-solid fa-circle-play"></i> Watch Now</button>
+                  <button type="button" class="btn btn-success login rounded-pill detail"> Detail › </button>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="animage">
+                  <img src="D:\My_Projects\frontend\image\840936.jpg" class="d-block w-100" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="rank">#9 Spotlight</h3>
+                  <h1 class="anime-name">Death Parade</h1>
+                  <div class="detail-icon">
+                    <i class="fa-solid fa-circle-play"> TV</i>
+                    <i class="fa-solid fa-clock"> 24m</i>
+                    <i class="fa-solid fa-calendar"> Jan 9,2015</i>
+                  </div>
+                  <p class="plot">After death, humans go to either heaven or hell. But for some, at the instant of their death, they arrive at the Quindecim, a bar attended by the mysterious white-haired Decim</p>
+                  <button type="button" class="btn btn-success login rounded-pill watch"><i class="fa-solid fa-circle-play"></i> Watch Now</button>
+                  <button type="button" class="btn btn-success login rounded-pill detail"> Detail › </button>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="animage">
+                  <img src="D:\My_Projects\frontend\image\598628.jpg" class="d-block w-100" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="rank">#10 Spotlight</h3>
+                  <h1 class="anime-name">Assassination Classroom</h1>
+                  <div class="detail-icon">
+                    <i class="fa-solid fa-circle-play"> TV</i>
+                    <i class="fa-solid fa-clock"> 21m</i>
+                    <i class="fa-solid fa-calendar"> Jan 9,2015</i>
+                  </div>
+                  <p class="plot">Forget about homework and pop quizzes. The students of Class 3E have a far more important assignment: kill their teacher before the end of the year.</p>
+                  <button type="button" class="btn btn-success login rounded-pill watch"><i class="fa-solid fa-circle-play"></i> Watch Now</button>
+                  <button type="button" class="btn btn-success login rounded-pill detail"> Detail › </button>
+                </div>
+              </div>
+
+
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+
+      <section class="trending">
+        <div class="trend">
+
+        <h1 class="trend-text">Trending</h1>
+        <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+          <div class="carousel-inner inner">
+              <div class="carousel-item item active">
+                  <div class="card">
+                      <div class="img-wrapper"><img src="D:\My_Projects\frontend\image\3795845.jpg" class="d-block w-100" alt="..."> </div>
+                      <!-- <div class="card-body">
+                        <h5 class="card-title">Card title 1</h5> 
+                        
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div> -->
+                      </div>
+                    <h4 class="card-title">Spy x Family</h4>
+                    <h3 class="card-rank">01</h3>
+              </div>
+              <div class="carousel-item item">
+                  <div class="card">
+                      <div class="img-wrapper"><img src="D:\My_Projects\frontend\image\1580451.jpg" class="d-block w-100" alt="..."> </div>
+                      <!-- <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div> -->
+                    </div>
+                  <h5 class="card-title">Kaguya-Sama...</h5>
+                  <h3 class="card-rank">02</h3>
+              </div>
+              <div class="carousel-item item">
+                <div class="card">
+                    <div class="img-wrapper"><img src="D:\My_Projects\frontend\image\Shenmue.-the.Animation-.600.3595607.jpg" class="d-block w-100" alt="..."> </div>
+                    <!-- <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div> -->
+                  </div>
+                <h5 class="card-title">Shenmue...</h5>
+                <h3 class="card-rank">03</h3>
+              </div>
+              <div class="carousel-item item">
+                <div class="card">
+                    <div class="img-wrapper"><img src="D:\My_Projects\frontend\image\Salaryman_s_Club_TV_Series-136170525-large.jpg" class="d-block w-100" alt="..."> </div>
+                    <!-- <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div> -->
+                  </div>
+                <h5 class="card-title">Salaryman's Club</h5>
+                <h3 class="card-rank">04</h3>
+              </div>
+              <div class="carousel-item item">
+                <div class="card">
+                    <div class="img-wrapper"><img src="D:\My_Projects\frontend\image\My-Dress-Up-Darling-Wallpaper.jpg" class="d-block w-100" alt="..."> </div>
+                    <!-- <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div> -->
+                  </div>
+                <h5 class="card-title">My Dress-up Dar...</h5>
+                <h3 class="card-rank">05</h3>
+              </div>
+              <div class="carousel-item item">
+                <div class="card">
+                    <div class="img-wrapper"><img src="D:\My_Projects\frontend\image\AOT_Season_2_Keyart.webp" class="d-block w-100" alt="..."> </div>
+                    <!-- <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div> -->
+                  </div>
+                <h5 class="card-title">Attack On Titan S2</h5>
+                <h3 class="card-rank">06</h3>
+              </div>
+              <div class="carousel-item item">
+                <div class="card">
+                    <div class="img-wrapper"><img src="D:\My_Projects\frontend\image\Shaman.King.(2021).full.3407223.jpg" class="d-block w-100" alt="..."> </div>
+                    <!-- <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div> -->
+                  </div>
+                <h5 class="card-title">Shaman King</h5>
+                <h3 class="card-rank">07</h3>
+              </div>
+              <div class="carousel-item item">
+                <div class="card">
+                    <div class="img-wrapper"><img src="D:\My_Projects\frontend\image\Dance.Dance.Danseur.600.3648399.jpg" class="d-block w-100" alt="..."> </div>
+                    <!-- <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div> -->
+                  </div>
+                <h5 class="card-title">Dance Dance...</h5>
+                <h3 class="card-rank">08</h3>
+              </div>
+              <div class="carousel-item item">
+                <div class="card">
+                    <div class="img-wrapper"><img src="D:\My_Projects\frontend\image\Koroshi.Ai.600.3501216.jpg" class="d-block w-100" alt="..."> </div>
+                    <!-- <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div> -->
+                  </div>
+                <h5 class="card-title">Love Of Kill</h5>
+                <h3 class="card-rank">09</h3>
+              </div>      
+              <div class="carousel-item item">
+                <div class="card">
+                    <div class="img-wrapper"><img src="D:\My_Projects\frontend\image\7151524.jpg" class="d-block w-100" alt="..."> </div>
+                    <!-- <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div> -->
+                  </div>
+                <h5 class="card-title">Demon Slayer S2</h5>
+                <h3 class="card-rank">10</h3>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="category">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card" style="width: 21.5rem;">
+            <div class="card-header">
+              Top Airing
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\Kingdom_S4_KV.jpg" alt="">
+                <h2>Kingdom 4th Season</h2>
+                <p>TV • Ep 18 • 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\cfb473a0157437e02bd732ef8f40ae8a.jpg" alt="">
+                <h2>Made in Abyss</h2>
+                <p>TV • Ep 13 • 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download.jpg" alt="">
+                <h2>One Piece</h2>
+                <p>TV • Ep 1028 • 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (1).jpg" alt="">
+                <h2>Summertime Rendering</h2>
+                <p>TV • Ep 25 • 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (2).jpg" alt="">
+                <h2>Overlord IV</h2>
+                <p>TV • Ep 6 • 23m</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card" style="width: 21.5rem;">
+            <div class="card-header">
+              Most Popular
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (3).jpg" alt="">
+                <h2>Death Note</h2>
+                <p>TV • Ep 37 • 23m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (4).jpg" alt="">
+                <h2>Fullmetal Alchemist: BH</h2>
+                <p>TV • Ep 64 • 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (5).jpg" alt="">
+                <h2>Attack On Titan</h2>
+                <p>TV • Ep 86 • 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (6).jpg" alt="">
+                <h2>One Punch Man</h2>
+                <p>TV • Ep 24• 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (7).jpg" alt="">
+                <h2>Tokyo Ghoul</h2>
+                <p>TV • Ep 48 • 24m</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card" style="width: 21.5rem;">
+            <div class="card-header">
+              Most Favourite
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (8).jpg" alt="">
+                <h2>Bleach</h2>
+                <p>TV • Ep 366 • 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (9).jpg" alt="">
+                <h2>Hunter x Hunter</h2>
+                <p>TV • Ep 148 • 23m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (10).jpg" alt="">
+                <h2>Naruto</h2>
+                <p>TV • Ep 220 • 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (11).jpg" alt="">
+                <h2>Pokemon</h2>
+                <p>TV • Ep 1115 • 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (17).jpg" alt="">
+                <h2>Doraemon</h2>
+                <p>TV • Ep 1787 • 24m</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card" style="width: 21.5rem;">
+            <div class="card-header">
+              Most Viewed
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (12).jpg" alt="">
+                <h2>Fullmetal Alchemist</h2>
+                <p>TV • Ep 51 • 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (13).jpg" alt="">
+                <h2>Death Note</h2>
+                <p>TV • Ep 37 • 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (14).jpg" alt="">
+                <h2>Cowboy Bepop</h2>
+                <p>TV • Ep 26 • 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (15).jpg" alt="">
+                <h2>Neon Genesis Evangelion</h2>
+                <p>TV • Ep 26 • 24m</p>
+              </li>
+              <li class="list-group-item">
+                <img src="D:\My_Projects\frontend\image\download (16).jpg" alt="">
+                <h2>Bleach</h2>
+                <p>TV • Ep 366 • 24m</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="top-upcoming">
+      <div class="row">
+        <div class="col-lg-8">
+          <h4 class="text">Top-Upcoming </h4>  
+      <div class="card-group">
+        <div class="card">
+          <div class="card-body">
+            <div class="top-img">
+              <img src="D:\My_Projects\frontend\image\download (18).jpg" alt="">
+            </div>
+            <div class="card-text">
+              <p>Chainsaw man</p>
+              <p class="date">Oct 2022</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="top-img">
+              <img src="D:\My_Projects\frontend\image\download (19).jpg" alt="">
+            </div>
+            <div class="card-text">
+              <p>Mob Psycho S3</p>
+              <p class="date">Oct 2022</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="top-img">
+              <img src="D:\My_Projects\frontend\image\download (20).jpg" alt="">
+            </div>
+            <div class="card-text">
+              <p>My Hero Academia S3</p>
+              <p class="date">Oct 2022</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body ">
+            <div class="top-img">
+              <img src="D:\My_Projects\frontend\image\download (21).jpg" alt="">
+            </div>
+            <div class="card-text">
+              <p>Spy x Family Pt.2</p>
+              <p class="date">Oct 2022</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="top-img">
+              <img src="D:\My_Projects\frontend\image\download (22).jpg" alt="">
+            </div>
+            <div class="card-text">
+              <p>Attack On Titan S4</p>
+              <p class="date">2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-group">
+        <div class="card">
+          <div class="card-body">
+            <div class="top-img">
+              <img src="D:\My_Projects\frontend\image\download (23).jpg" alt="">
+            </div>
+            <div class="card-text">
+              <p>Vinland Saga S2</p>
+              <p class="date">Oct 2022</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="top-img">
+              <img src="D:\My_Projects\frontend\image\download (24).jpg" alt="">
+            </div>
+            <div class="card-text">
+              <p>Uzumaki</p>
+              <p class="date">2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="top-img">
+              <img src="D:\My_Projects\frontend\image\download (25).jpg" alt="">
+            </div>
+            <div class="card-text">
+              <p>Jujutsu Kaisen S2</p>
+              <p class="date">2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="top-img">
+              <img src="D:\My_Projects\frontend\image\download (26).jpg" alt="">
+            </div>
+            <div class="card-text">
+              <p>Dr. Stone: New world</p>
+              <p class="date">Apr 2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="top-img">
+              <img src="D:\My_Projects\frontend\image\images.jpg" alt="">
+            </div>
+            <div class="card-text">
+              <p>Demon Slayer S3</p>
+              <p class="date">-</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="col">
+        <h4 class="text">Genres</h4> 
+        <div class="card genres">
+          <div class="card-body text-center" id="thirdTable">
+            <table>
+              <tbody>
+              <tr style="color: red;">
+              <td>Action</td>
+              <td>Adventure</td>
+              <td>Cars</td>
+              </tr>
+              <tr style="color: yellow;">
+              <td>Comedy</td>
+              <td>Dementia</td>
+              <td>Demons</td>
+              </tr>
+              </tr>
+              <tr style="color: rgb(2, 2, 69);">
+              <td>Drama</td>
+              <td>Ecchi</td>
+              <td>Fantasy</td>
+              </tr>
+              </tr>
+              <tr style="color: rgb(2, 181, 2);">
+              <td>Game</td>
+              <td>Harem</td>
+              <td>Historical</td>
+              </tr>
+              <tr style="color: rgb(214, 7, 214);">
+              <td>Horror</td>
+              <td>Isekai</td>
+              <td>Josei</td>
+              </tr>
+              <tr style="color: rgb(255, 0, 55);">
+              <td>Kids</td>
+              <td>Magic</td>
+              <td>Martial Arts</td>
+              </tr>
+              <tr style="color: white;">
+              <td>Mecha</td>
+              <td>Military</td>
+              <td>Music</td>
+              </tr>
+              <tr style="color: cyan;">
+              <td>Mystery</td>
+              <td>Parody</td>
+              <td>Police</td>
+              </tr>
+              </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+  <footer>
+    <div class="foot">
+          <a href="#"><i class="fa-brands fa-reddit fa-2x"></i></a>
+          <a href="#"><i class="fa-brands fa-discord fa-2x"></i></a>
+          <a href="#"><i class="fa-brands fa-telegram fa-2x"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>  
+      <h1>© Copyright Abhay Semwal</h1>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="D:\My_Projects\frontend\index.js"></script>
+</body>
+</html>
